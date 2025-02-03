@@ -30,22 +30,22 @@
                 <li><a href="exp.html">Experiences</a></li>
                 <li><a href="project.html">Projects</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
-                <search>
-                    <form action="https://reqres.in/api/test" method="get">
-                        <input type="text" name="query" placeholder="Search...">
-                        <button type="search">Search</button>
-                    </form>
-                </search>
             </ul>
+            <search>
+                <form action="https://reqres.in/api/test" method="get">
+                    <input type="text" name="query" placeholder="Search...">
+                    <button type="search">Search</button>
+                </form>
+            </search>
         </nav>
     </header>
     <hr>
     <main>
-        <hgroup>
+        <hgroup id="home-header">
             <h1>Home</h1>
-            <h2>Hi, I'm Jan.</h2>
         </hgroup>
         <section id="home">
+            <h2>Hi, I'm Jan.</h2>
             <figure>
                 <img src="img/headshot.png" alt="Jan's Profile Picture" width="200">
             </figure>
@@ -57,8 +57,8 @@
                 Here you'll find information about my <em>projects, experiences, and ways to contact me.</em>
             </p>
         </section>
-        <h3>Contents:</h3>
-        <dl>
+        <h3 id="contents">Contents:</h3>
+        <dl id="content-items">
             <dt>Home</dt>
                 <dd>The langing page you see here!</dd>
             <dt>About me</dt>
